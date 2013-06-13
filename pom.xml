@@ -8,9 +8,9 @@
 	<version>1.6.1</version>
 
 	<parent>
-		<groupId>org.sonatype.oss</groupId>
-		<artifactId>oss-parent</artifactId>
-		<version>7</version>
+		<groupId>com.grio.android</groupId>
+		<artifactId>parent</artifactId>
+		<version>1.0-SNAPSHOT</version>
 	</parent>
 
 	<name>HoloEverywhere Parent</name>
@@ -55,34 +55,21 @@
 				<role>developer</role>
 			</roles>
 		</developer>
+
+		<developer>
+			<name>Ryan Schultz</name>
+			<id>ryands</id>
+			<email>rschultz@grio.com</email>
+			<roles>
+				<role>Maven changes for Grio</role>
+			</roles>
+		</developer>
 	</developers>
 
 	<issueManagement>
 		<system>GitHub Issues</system>
 		<url>https://github.com/Prototik/HoloEverywhere/issues</url>
 	</issueManagement>
-
-	<distributionManagement>
-		<repository>
-			<id>holoeverywhere-repo</id>
-			<name>HoloEverywhere Repo</name>
-			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
-			<uniqueVersion>true</uniqueVersion>
-		</repository>
-
-		<snapshotRepository>
-			<id>holoeverywhere-repo-snapshots</id>
-			<name>HoloEverywhere Repo Snapshots</name>
-			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
-			<uniqueVersion>false</uniqueVersion>
-		</snapshotRepository>
-
-		<site>
-			<id>holoeverywhere-website</id>
-			<name>HoloEverywhere Website</name>
-			<url>http://holoeverywhere.org/</url>
-		</site>
-	</distributionManagement>
 
 	<licenses>
 		<license>
@@ -98,11 +85,11 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 		<java.version>1.6</java.version>
-		<abs.version>4.3.1</abs.version>
-		<noa.version>2.4.0</noa.version>
-		<junit.version>4.8.1</junit.version>
-		<android.version>4.1.1.4</android.version>
-		<android-support.version>r13</android-support.version>
+		<abs.version>${actionbarsherlock.version}</abs.version>
+		<noa.version>${nineoldandroids.version}</noa.version>
+		<junit.version>4.11</junit.version>
+		<android.version>${platform.version}</android.version>
+		<android-support.version>${android.support-v4.library.version}</android-support.version>
 		<android.sdk.platform>16</android.sdk.platform>
 
 		<github.downloads.repositoryOwner>Prototik</github.downloads.repositoryOwner>
