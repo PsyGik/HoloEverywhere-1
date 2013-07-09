@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
     <string name="activity_resolver_use_always">"一律採用"</string>
     <string name="activity_resolver_use_once">"僅限一次"</string>
     <string name="candidates_style">"待選項目"</string>

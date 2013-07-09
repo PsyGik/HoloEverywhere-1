@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
     <style name="Holo.PreferencePanel">
         <item name="android:background">?detailsElementBackground</item>
         <item name="android:layout_marginBottom">@dimen/preference_screen_bottom_margin</item>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
     <string name="candidates_style">"candidats"</string>
     <string name="capital_off">"DEACTIVÀ"</string>
     <string name="capital_on">"ACTIVÀ"</string>

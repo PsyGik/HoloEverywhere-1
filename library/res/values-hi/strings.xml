@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
     <string name="activity_resolver_use_always">"हमेशा"</string>
     <string name="activity_resolver_use_once">"केवल एक बार"</string>
     <string name="candidates_style">"उम्‍मीदवार"</string>

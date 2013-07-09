@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
     <string name="activity_resolver_use_always">"Alati"</string>
     <string name="activity_resolver_use_once">"Ainult üks kord"</string>
     <string name="candidates_style">"kandidaadid"</string>
