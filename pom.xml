@@ -119,7 +119,7 @@
 
 		<holo.resbuilder.buildAll>true</holo.resbuilder.buildAll>
 		<holo.resbuilder.outputDir>${project.basedir}/res</holo.resbuilder.outputDir>
-        <maven.android.plugin.version>3.6.0</maven.android.plugin.version>
+        <maven.android.plugin.version>3.6.1</maven.android.plugin.version>
         
 	</properties>
 
