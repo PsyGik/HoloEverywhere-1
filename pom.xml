@@ -6,6 +6,9 @@
     <artifactId>parent</artifactId>
     <packaging>pom</packaging>
     <version>1.6.1</version>
+    <prerequisites>
+        <maven>3.0.3</maven>
+    </prerequisites>
         
     <parent>
         <groupId>org.sonatype.oss</groupId>
